@@ -1,0 +1,67 @@
+.app-container {
+    background-image: url('C:/Users/rajen/potato-disease-detection/src/potato.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+   
+    /* Add other styling as needed */
+  }
+
+  .header {
+    text-align: center;
+    
+    margin-top: 0; /* Adjust the margin as needed */
+    color: white; /* Set the color of the header text */
+  }
+  
+  .column4{
+    display: flex;
+    flex: 0;
+    align-items: flex-start;
+    margin-top: 20px; /* Adjust for left-align or right-align */
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .column img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+  } 
+  .button-container {
+    text-align: center; /* Center the button horizontally */
+    position: relative;
+    bottom: 70px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Center the button vertically */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    flex-direction: column;
+    padding: 0 150px ;
+    align-items: center;
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgb(54, 107, 182); /* Adjust the background color as needed */
+    color: #ffffff; /* Adjust the text color as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+    margin: 0 auto;
+    
+    /* Add any additional styles as needed */
+  }
+  .density-plot-image {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    display: block; /* Make sure it's treated as a block element */
+    margin-top: 10px; /* Adjust spacing from the button as needed */
+  }

@@ -1,0 +1,10 @@
+.imageupload_container{
+    border: 0.5px solid white;
+    padding:5px;
+    margin-bottom: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: white;
+    text-size-adjust: 10;
+}
